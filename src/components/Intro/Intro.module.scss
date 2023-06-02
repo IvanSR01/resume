@@ -1,0 +1,39 @@
+.wrapper{
+	margin-top: 50px;
+	height: 600px;
+	border-radius: 40px;
+	background-color: #fff;
+	padding: 150px 200px;
+	box-sizing: border-box;
+	h3{
+		font-size: 30px;
+		margin-bottom: 20px;
+		color: rgb(113, 113, 113);
+	}
+	.create{
+		font-size: 60px;
+		font-weight: bold;
+	}
+	.time{
+		font-size: 80px;
+	}
+	.create , .time{
+		color: #5a3e6c;
+	}
+	button{
+		margin-top: 50px;
+		font-size: 25px;
+		background-color: transparent;
+		border: 4px solid #5a3e6c;
+		border-radius: 10px;
+		padding: 10px 20px;
+		color: #5a3e6c;
+		font-weight: bold;
+		transition: background-color 0.5s;
+		cursor: pointer;
+	}
+	button:hover{
+		background-color: #5a3e6c;
+		color: #fff;
+	}
+}

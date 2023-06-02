@@ -1,0 +1,25 @@
+.wrapper{
+	min-height: 500px;
+	box-sizing: border-box;
+	padding: 50px;
+	background-color: #fff;
+	border-radius: 40px;
+
+	.block {
+		margin-top: 30px;
+		display: flex;
+		gap: 20px;
+	}
+
+	input{
+		width: 250px;
+	}
+	.button {
+		display: flex;
+		justify-content: center;
+	}
+	button{
+		margin-top: 20px;
+		font-size: 30px;
+	}
+}
